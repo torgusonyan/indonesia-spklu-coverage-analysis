@@ -4,6 +4,14 @@ Spatial analysis of Indonesia's public EV charging network (*Stasiun Pengisian K
 Umum* — SPKLU): how stations are distributed across operators and regions, how coverage compares
 per capita and per unit of economic output, and where spatial "charging deserts" appear.
 
+**Author:** Ryan Farid Pratama <br>
+**Tech Stack:** Python · pandas · NumPy · SciPy · Matplotlib · Seaborn · Tableau
+
+> **Scope:** This project is an exploratory and inferential data analysis of SPKLU
+> coverage (data loading, cleaning, analysis, statistical testing, and export for a
+> Tableau dashboard). Building or deploying the charging infrastructure itself is out
+> of scope.
+
 **Interactive dashboard (Tableau Public):**
 [P1M2 — SPKLU Coverage Dashboard](https://public.tableau.com/app/profile/ryan.pratama7647/viz/P1M2_ryan_farid/Dashboard1?publish=yes)
 
@@ -105,12 +113,3 @@ jupyter notebook spklu_analysis.ipynb
 
 Data paths in the notebook are relative to the repository root, so the notebook runs as-is after
 cloning — no path editing required.
-
-## Tools
-
-Python (pandas, NumPy, SciPy, Matplotlib, Seaborn) for analysis; Tableau Public for the
-interactive dashboard.
-
-## Author
-
-Ryan Farid Pratama — CODA-RMT-023
